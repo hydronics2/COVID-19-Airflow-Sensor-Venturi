@@ -1,11 +1,9 @@
 # Easy Flow Rate Sensor
 
-This version of the flow rate sensor has off the shelf micro-controllers for quick prototyping
+This version of the flow rate sensor has off the shelf micro-controllers for quick prototyping.
+[Helpful Engineering Slack Channel](https://hackaday.io/project/170446-helpful-engineeringopen-source-mass-airflow-meter)
 
-The current tested design is easy to program and approachable to beginner programmers.  The printed circuit board accepts multiple Arduino platforms made by Adafruit including their line of [Adafruit Feather](https://www.adafruit.com/category/777) type micro-controllers and [Adafruit ItsyBitsy](https://www.adafruit.com/category/1008) micro-controllers.   The Adafruit feathers include wifi and long range radio features (esp8266, esp32, and LoRA). All the ItsyBitsy 3V models (M0, M4, and 32u4) should work fine.
-
-[![Foo](https://github.com/hydronics2/2019-easy-bee-counter/blob/master/pics/bees_flying.PNG)](https://youtu.be/SzXWWUh2k8w)
-
+The printed circuit board (PCB) accepts multiple Arduino platforms made by Adafruit including their line of [Adafruit Feather](https://www.adafruit.com/category/777) type micro-controllers and [Adafruit ItsyBitsy](https://www.adafruit.com/category/1008) micro-controllers.   The Adafruit feathers include wifi and SAMD M0 and M4 options. All the ItsyBitsy 3V models (M0, M4, and 32u4) should work fine.
 
 ### Still to do
 - select the operational amplifiers
@@ -13,13 +11,13 @@ The current tested design is easy to program and approachable to beginner progra
   - alarm selection
 - add piezo buzzer for audio alarm
 
-
 ### General Operation
-Honeybees are forced through 24 gates where optical sensors (48 sensors) determine whether the bee is present and determine the
+.....
 
 ### Pressure Sensors
-One pressure sensor measures differential pressure from an external venturi
-One pressure sensor measures relative pressure.
+Two pressure sensors used here. Both manufactured by [NXP MP3V5004 Series](https://www.nxp.com/docs/en/data-sheet/MP3V5004G.pdf)
+- One pressure sensor measures differential pressure from an external venturi
+- One pressure sensor measures relative pressure.
 Both pressure sensors are connected to operational amplifiers so their outputs maybe amplified into the micro-controller's ADC.
 ![foo](https://github.com/hydronics2/Easy-Flow_Sensor/blob/master/pics/analog_amplfier.PNG)
 
