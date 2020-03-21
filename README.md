@@ -8,10 +8,16 @@ The printed circuit board (PCB) accepts multiple Arduino platforms made by Adafr
 [google Doc](https://docs.google.com/document/d/14zgp7OhsyWClFdLCb04ITVAHAoAawH8Gl29P4oe5PJs/edit?usp=sharing)
 
 ### Still to do
-- select the operational amplifiers
+- select the operational amplifiers and gain serving the pressure sensors
 - add buttons for user input
-  - alarm selection
+  - Select alarm conditions
 - add piezo buzzer for audio alarm
+- Add LED indicators as needed
+- Might need to add a separate power connector (⅛” barrel?)  as the USB micro connector might not be strong enough
+- Add surface mount parts (say convert from through hole to 0805?)
+- Verify footprints
+- Verify any i2C conflicts between humidity sensor and OLED display
+
 
 ### General Operation
 .....
@@ -21,17 +27,20 @@ Two pressure sensors used here. Both manufactured by [NXP MP3V5004 Series](https
 - One pressure sensor measures differential pressure from an external venturi
 - One pressure sensor measures relative pressure.
 Both pressure sensors are connected to operational amplifiers so their outputs maybe amplified into the micro-controller's ADC.
-![foo](https://github.com/hydronics2/Easy-Flow_Sensor/blob/master/pics/analog_amplfier.PNG)
+![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/analog_amplifiers.PNG)
 
 
 ### Micro-Controller Pinout
 #### Feather ESP32 Pinout
-![feather](https://github.com/hydronics2/Easy-Flow_Sensor/blob/master/pics/feather.PNG)
+![feather](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/feather.PNG)
 #### ItsyBitsy Pinout
-![itsy](https://github.com/hydronics2/Easy-Flow_Sensor/blob/master/pics/itsy.PNG)
+![itsy](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/itsy.PNG)
 
 
 ### Power
-The PCB design uses the USB power pin from the micro-controller. The Feather micro-controllers have a lipo charge circuit.  The main board then get's power from the vBat pin of the micro-controller.
+Power is delivered through the USB cable on the micro-controller. The Feather micro-controllers have a lipo charge circuit.  The main board is powered from the vBat pin of the micro-controller. The smaller Adafruit micro-controller does not have a lipo charge circuit and powers the PCB from the USB pin.
 Feather lipo charge circuit
-![foo](https://github.com/hydronics2/Easy-Flow_Sensor/blob/master/pics/feather_power.PNG)
+![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/feather_power.PNG)
+
+![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/Schematic.PNG)
+![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/board%20view.PNG)
