@@ -22,6 +22,10 @@ The printed circuit board (PCB) accepts multiple Arduino platforms made by Adafr
 ### General Operation
 .....
 
+### Bill of Materials
+- differential pressure sensor, MP3V5004DP,
+- gauge pressure sensor, MP3V5004G
+
 ### Pressure Sensors
 Two pressure sensors used here. Both manufactured by [NXP MP3V5004 Series](https://www.nxp.com/docs/en/data-sheet/MP3V5004G.pdf)
 - One pressure sensor measures differential pressure from an external venturi
@@ -32,8 +36,10 @@ Both pressure sensors are connected directly to the micro-controllers ADC inputs
 
 ### Micro-Controller Pinout
 #### Feather ESP32 Pinout
+#### Not up to date
 ![feather](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/feather.PNG)
 #### ItsyBitsy Pinout
+#### Not up to date
 ![itsy](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/itsy.PNG)
 
 
@@ -42,5 +48,6 @@ Power is delivered through the USB cable on the micro-controller. The Feather mi
 Feather lipo charge circuit
 ![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/feather_power.PNG)
 
-![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/Schematic.PNG)
-![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/board%20view.PNG)
+![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/schematic.PNG)
+![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/front_pcb.PNG)
+![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/back_pcb.PNG)
