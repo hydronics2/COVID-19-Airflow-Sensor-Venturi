@@ -4761,13 +4761,13 @@ https://www.adafruit.com/category/1008</text>
 <text x="210.82" y="111.76" size="1.778" layer="91">Adafruit Feather ESP32 but typical of M0, M4, etc
 https://www.adafruit.com/category/777</text>
 <text x="-55.88" y="81.28" size="1.778" layer="91">Generic 3.3v Regulator
-https://www.digikey.com/products/en?keywords=MCP1826S-3302E%2FAB</text>
+</text>
 <text x="50.8" y="53.34" size="1.778" layer="91" align="bottom-right">Test Points</text>
 <text x="157.48" y="50.8" size="1.778" layer="91" align="bottom-right">Indicator LEDs</text>
 <text x="175.26" y="40.64" size="1.778" layer="91" align="bottom-right">Power</text>
 <text x="160.02" y="40.64" size="1.778" layer="91" align="bottom-right">Error</text>
 <text x="144.78" y="40.64" size="1.778" layer="91" align="bottom-right">User Defined</text>
-<text x="-53.34" y="75.692" size="1.778" layer="91">SMD equivalent: 
+<text x="-53.34" y="75.692" size="1.778" layer="91">
 https://www.mouser.com/ProductDetail/511-LDL1117S33R</text>
 <text x="241.3" y="35.56" size="1.778" layer="91" align="bottom-right">Audio Alarm
 Generic Piezo w/6.5mm leads</text>
