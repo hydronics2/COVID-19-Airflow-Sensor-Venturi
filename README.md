@@ -12,6 +12,10 @@ The printed circuit board (PCB) accepts multiple Arduino platforms made by Adafr
 
 [google Doc](https://docs.google.com/document/d/14zgp7OhsyWClFdLCb04ITVAHAoAawH8Gl29P4oe5PJs/edit?usp=sharing)
 
+
+![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/board_connections.PNG)
+
+
 ### Still to do
 - select the operational amplifiers and gain serving the pressure sensors
 - Select alarm conditions
@@ -54,7 +58,7 @@ Both pressure sensors are connected directly to the micro-controllers ADC inputs
 
 ### Power
 Power is delivered through the USB cable on the micro-controller. The Feather micro-controllers have a lipo charge circuit.  The main board is powered from the vBat pin of the micro-controller. The smaller Adafruit micro-controller does not have a lipo charge circuit and powers the PCB from the USB pin.
-Feather lipo charge circuit
+Feather lipo charge circuit. A 3.3v linear regulator is the analog power supply to the pressure sensors and operational amplifiers. This is a generic 3.3V regulator: LDL1117S33R
 ![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/feather_power.PNG)
 
 ![foo](https://github.com/hydronics2/Easy-Flow-Sensor/blob/master/pics/schematic.PNG)
