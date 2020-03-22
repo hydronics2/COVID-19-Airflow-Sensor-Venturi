@@ -1,0 +1,10 @@
+(module STANDOFF_ELECTRICAL_5_32 (layer F.Cu) (tedit 0)
+  (fp_text reference S6 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value STANDOFF_ELECTRICAL5-32 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad P1 thru_hole circle (at 0 0) (size 7.62 7.62) (drill 3.96875) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.0762))
+)
