@@ -1,3 +1,6 @@
+#### This sensor was abandoned because another member was pushing forward with a venturi type sensor based on a delta pressure reading. An ongoing airflow sensor project is here: [AFH55M12](https://github.com/hydronics2/COVID-19-Airflow-Sensor-AFH55M12) 
+
+
 # Easy Flow Rate Sensor - venturi PCB
 
 ## Project Description ([from Helpful Engineering](https://www.helpfulengineering.org/))
